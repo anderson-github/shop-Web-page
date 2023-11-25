@@ -75,15 +75,36 @@
   left: 30px;
   top: 30px;
 }
-.casual img {
+#carouselHappyCustomers {
 
 }
-.formal img {
+.customer-card {
   
 }
-.party img {
-
+.customer-card .green-check {
+  width: 24px;
+  position: relative;
+  top: -3px;
 }
-.gym img {
 
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  bottom: inherit;
+  display: block;
+  left: inherit;
+  width: 30px;
+}
+
+.carousel-control-prev {
+  right: 60px !important;
+  top: -60px !important;
+}
+.carousel-control-next {
+  right: 0 !important;
+  top: -60px !important;
+}
+
+.footer-banner {
+  top: -100px
 }
