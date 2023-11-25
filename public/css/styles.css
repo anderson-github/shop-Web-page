@@ -62,8 +62,49 @@
   background-size: cover;
   background-position: center;
 }
-.image-style-container {
-  height: 250px;
-  background-size: cover;
-  background-position: 75% 25%;
+.image-style-big-container {
+  background-color: white;
+  height: 260px;
+}
+.img-style {
+  display: block;
+  margin-left: auto;
+  height: 260px;
+}
+.style-title {
+  left: 30px;
+  top: 30px;
+}
+#carouselHappyCustomers {
+
+}
+.customer-card {
+  
+}
+.customer-card .green-check {
+  width: 24px;
+  position: relative;
+  top: -3px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  bottom: inherit;
+  display: block;
+  left: inherit;
+  width: 30px;
+}
+
+.carousel-control-prev {
+  right: 60px !important;
+  top: -60px !important;
+}
+.carousel-control-next {
+  right: 0 !important;
+  top: -60px !important;
+}
+
+.footer-banner {
+  top: -100px
 }
